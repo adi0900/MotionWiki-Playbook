@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Profile%20Pic%20Socials%201-1.png" alt="MotionViz" width="120" />
+  <img src="./assets/logo.png" alt="MotionViz" width="120" />
 </p>
 
 <h1 align="center">MotionViz Playbook &amp; Agent Skills</h1>
@@ -9,14 +9,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/adi0900/MotionWiki-Playbook"><img src="https://img.shields.io/badge/Agent_Skills-Compatible-111827?style=for-the-badge" alt="Agent Skills" /></a>
+  <a href="https://github.com/adi0900/MotionWiki-Playbook"><img src="https://img.shields.io/badge/Agent_Skills-5_Skills-111827?style=for-the-badge" alt="Agent Skills" /></a>
   <a href="https://x.com/Motion_Viz"><img src="https://img.shields.io/badge/@Motion__Viz-X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
   <a href="https://linktr.ee/motionviz"><img src="https://img.shields.io/badge/Links-MotionViz-ff4f6d?style=for-the-badge" alt="MotionViz" /></a>
 </p>
 
 ---
 
-## Install in One Command
+## Install All 5 Skills in One Command
 
 Works with **Claude Code**, **Codex**, **Gemini / Antigravity**, and any Agent Skills-compatible client:
 
@@ -26,7 +26,7 @@ npx skills add https://github.com/adi0900/MotionWiki-Playbook.git
 
 ---
 
-## What You Get (Live Showcases)
+## Live Video Skill Showcases
 
 ### 1. `flatbed-scanner-film` — 1200 DPI Optical Flatbed CCD Slit-Scan
 
@@ -63,32 +63,44 @@ End-to-end **Blender 4.2+/5.x + Python VFX pipeline** to build or import any 3D 
 
 - **Zero-clipping studio cameras:** Automated orbit, low-angle hero, wheel/detail, and rear-quarter shots.
 - **Kinetic editorial VFX layer:** Computer-vision tracking webs, B&W specular node graphs, Bayer-dithered halftone waves, strobing inverted-contrast typography, HUD telemetry, and seamless loop glitches.
-- **Fully scripted:** Reproducible Blender Python + FFmpeg pipeline in [`skills/blender-kinetic-showreel/`](./skills/blender-kinetic-showreel/SKILL.md).
+- **Fully scripted:** Reproducible Blender Python + FFmpeg pipeline in [`skills/blender-kinetic-showreel/SKILL.md`](./skills/blender-kinetic-showreel/SKILL.md).
 
 ---
 
-## Full Skills & Instruction Index
+## All 5 Skills
 
-| Skill / File | What It Does | Best For |
+| Skill | Category | What It Does |
 |---|---|---|
-| [`skills/flatbed-scanner-film`](./skills/flatbed-scanner-film/SKILL.md) | 1200 DPI optical flatbed CCD slit-scan + Apple Vision cutouts + procedural synth audio | Turning any raw AI or camera clip into a `$0` art-directed reel |
-| [`skills/blender-kinetic-showreel`](./skills/blender-kinetic-showreel/SKILL.md) | Procedural 3D studio lighting, multi-angle cameras, and kinetic editorial VFX compositing | High-contrast 3D vehicle / product showreels in Blender 5.x |
-| [`visual-identity/skills/BRANDING/Brand-MV.skill`](./visual-identity/skills/BRANDING/Brand-MV.skill) | Identity boards, symbol logic, typography direction, palette systems | Brand identity & compressed design guidelines |
-| [`website-design/skills/Design-MV.md`](./website-design/skills/Design-MV.md) | Structured, anti-slop landing pages & product-site architecture | High-craft product & marketing websites |
+| [`flatbed-scanner-film`](./skills/flatbed-scanner-film/SKILL.md) | Video / Local VFX | 1200 DPI optical flatbed CCD slit-scan + Apple Vision cutouts + procedural synth audio (`$0` local) |
+| [`blender-kinetic-showreel`](./skills/blender-kinetic-showreel/SKILL.md) | 3D / Blender 5.x | Procedural 3D studio lighting, multi-angle cameras, and kinetic editorial VFX compositing |
+| [`visual-identity`](./skills/visual-identity/SKILL.md) | Branding | Identity boards, symbol logic, typography direction, palette systems, and guidelines |
+| [`website-design`](./skills/website-design/SKILL.md) | Web Design | Engineered, anti-slop landing pages and flagship product-site architecture |
+| [`cro-audit`](./skills/cro-audit/SKILL.md) | Growth / CRO | Consultant-grade conversion diagnostics, revenue leak analysis, and prioritized fix plans |
 
 ---
 
-## Repository Layout
+## Repository Structure
 
 ```text
 MotionWiki-Playbook/
-├── skills/
-│   ├── flatbed-scanner-film/        # 1200 DPI optical scanner skill + Swift/Python scripts
-│   └── blender-kinetic-showreel/    # Blender 5.x 3D studio + kinetic editorial VFX scripts
-├── visual-identity/skills/BRANDING/ # Brand identity skill
-├── website-design/skills/           # Web design direction skill
-├── assets/                          # Animated showcase GIFs
-└── instructions.md                  # Setup patterns & usage notes
+├── README.md
+├── assets/
+│   ├── logo.png
+│   ├── flatbed-scanner-demo.gif
+│   └── blender-kinetic-demo.gif
+└── skills/
+    ├── flatbed-scanner-film/
+    │   ├── SKILL.md
+    │   └── scripts/
+    ├── blender-kinetic-showreel/
+    │   ├── SKILL.md
+    │   └── scripts/
+    ├── visual-identity/
+    │   └── SKILL.md
+    ├── website-design/
+    │   └── SKILL.md
+    └── cro-audit/
+        └── SKILL.md
 ```
 
 ---

@@ -1,5 +1,6 @@
 ---
-name: cro-mv
+name: cro-audit
+description: Run consultant-grade Conversion Rate Optimization (CRO) audits on landing pages and funnels to identify revenue leaks, clarify conversion logic, and produce prioritized fix plans with expected impact.
 ---
 
 # CRO-MV

@@ -1,5 +1,5 @@
 ---
-name: visualidentity
+name: visual-identity
 description: Universal visual-identity image generation skill for creating refined brand-guideline boards, logo systems, identity presentations, and visual-world directions across industries. Optimized for strategic logo concepting, modular brand systems, editorial layouts, type hierarchies, color logic, application mockups, and coherent presentation design. Built to generate identities that feel intentional, ownable, premium, and system-driven rather than generic.
 ---
 

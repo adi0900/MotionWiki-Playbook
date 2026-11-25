@@ -1,5 +1,6 @@
 ---
-name: design-mv
+name: website-design
+description: Build flagship landing pages and product sites that feel engineered, structured, and studio-grade rather than generic SaaS templates. Use for web experience architecture, hero layouts, and interface-led marketing pages.
 ---
 
 # Design-MV
