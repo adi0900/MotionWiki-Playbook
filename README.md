@@ -1,169 +1,100 @@
-# MotionViz
+<p align="center">
+  <img src="./Profile%20Pic%20Socials%201-1.png" alt="MotionViz" width="120" />
+</p>
+
+<h1 align="center">MotionViz Playbook &amp; Agent Skills</h1>
 
 <p align="center">
-  <img src="./Profile%20Pic%20Socials%201-1.png" alt="MotionViz" width="220" />
+  <strong>Turn any raw clip or 3D model into studio-grade optical scans, kinetic Blender showreels, and agency-grade brand &amp; web systems — locally for $0.</strong>
 </p>
 
-<p>
-  <a href="https://linktr.ee/motionviz">
-    <img src="https://img.shields.io/badge/Official_Website-MotionViz-black?style=for-the-badge&logo=vercel" alt="Official Website" />
-  </a>
+<p align="center">
+  <a href="https://github.com/adi0900/MotionWiki-Playbook"><img src="https://img.shields.io/badge/Agent_Skills-Compatible-111827?style=for-the-badge" alt="Agent Skills" /></a>
+  <a href="https://x.com/Motion_Viz"><img src="https://img.shields.io/badge/@Motion__Viz-X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://linktr.ee/motionviz"><img src="https://img.shields.io/badge/Links-MotionViz-ff4f6d?style=for-the-badge" alt="MotionViz" /></a>
 </p>
 
-MotionViz is a compact design instruction library for people using AI to shape identity systems and product-site concepts.
+---
 
-It is not trying to be a huge prompt warehouse. The point is to keep a small set of files that push the model toward cleaner judgment: stronger symbols, better page structure, tighter typography, less drift, less filler.
+## Install in One Command
 
-[![Agent Skills](https://img.shields.io/badge/Agent_Skills-Compatible-2563eb?style=flat-square)](https://github.com/vercel-labs/agent-skills)
-[![GitHub stars](https://img.shields.io/github/stars/adi0900/MV---Design?style=flat-square&color=fbbf24)](https://github.com/adi0900/MV---Design/stargazers)
-[![AI Workflow](https://img.shields.io/badge/Works_With-GPT_API_%7C_FLORA_%7C_ChatGPT-111827?style=flat-square)](#how-to-use-it)
-[![Design Focus](https://img.shields.io/badge/Focus-Identity_%2B_Web_Experience-6b7280?style=flat-square)](#the-two-core-files)
-
-## What This Repo Is Actually For
-
-Most AI design output becomes generic in the same predictable ways. Brand work turns into a moodboard with a logo attached. Website work turns into a polished-looking page with no real structure underneath it.
-
-MotionViz is meant to intervene earlier than that. These files are instruction layers that try to change how the model frames the problem before it starts styling the answer.
-
-In practice, that means:
-
-- identity work should feel reduced, ownable, and system-aware
-- website work should feel structured, credible, and product-specific
-- both should read like someone made decisions instead of collecting effects
-
-## The Two Core Files
-
-MotionViz currently stays deliberately narrow.
-
-`visual-identity/skills/BRANDING/Brand-MV.skill`
-For identity boards, logo systems, typography direction, palette logic, brand applications, and compressed guideline-style outputs.
-
-`website-design/skills/Design-MV.md`
-For landing pages, product-site concepts, interface-led website compositions, and full-page web experience direction.
-
-### 3D & Local VFX Video Skills (`skills/`)
-
-`skills/flatbed-scanner-film/`
-Turn any raw video clip into a 14.5-second `1200 DPI` optical flatbed CCD slit-scan specimen film (clinical white lightbox glass + pitch-black RGB X-ray darkroom + dot-matrix HUD + frame-synced mechanical scanner soundtrack) locally for `$0` using Apple Vision (macOS) or `rembg` + NumPy + FFmpeg.
-
-`skills/blender-kinetic-showreel/`
-End-to-end Blender 4.2+/5.x + Python VFX pipeline to build or import any 3D vehicle/product, light it in a high-contrast dark-metallic pure-white studio, animate multi-angle zero-clipping cameras (`4:5` or `16:9`), and composite kinetic editorial motion graphics (CV tracking webs, B&W specular node graphs, Bayer-dithered halftone waves, strobing typography, and HUD telemetry).
-
-That is the real scope of the repository right now. More files should only appear when they solve a separate problem, not when they restate the same one in a new wrapper.
-
-## How To Use It
-
-If your tool supports skill imports:
+Works with **Claude Code**, **Codex**, **Gemini / Antigravity**, and any Agent Skills-compatible client:
 
 ```bash
 npx skills add https://github.com/adi0900/MotionWiki-Playbook.git
 ```
 
-If it does not, open the file you want and paste it into your system or instruction layer.
+---
 
-MotionViz is currently easiest to use with:
+## What You Get (Live Showcases)
 
-- GPT API
-- FLORA
-- ChatGPT
+### 1. `flatbed-scanner-film` — 1200 DPI Optical Flatbed CCD Slit-Scan
 
-`instructions.md` contains the practical setup patterns.
+<p align="center">
+  <img src="./assets/flatbed-scanner-demo.gif" alt="Flatbed Scanner Film Demo" width="760" />
+</p>
 
-## Picking The Right File
+Drop in **any raw video clip** and turn it into a frame-synced **14.5-second 1200 DPI optical flatbed scanner film** locally on your machine for **$0** — zero After Effects plugins, zero paid VFX packs, zero extra AI tokens.
 
-Choose `Brand-MV.skill` when the deliverable is fundamentally about identity logic.
+- **Local foreground cutouts:** Native macOS **Apple Vision** (`VNGenerateForegroundInstanceMaskRequest`, `~8s` for 193 frames) with automatic `rembg` fallback on Linux/Windows.
+- **Temporal RGB CCD slit-scan:** Clinical off-white flatbed lightbox glass with procedural dust/micro-fibers + pitch-black RGB X-ray darkroom void.
+- **Dot-matrix technical HUD:** Custom `--brand`, `--subtitle`, and `--obj1..3` specimen labels.
+- **Frame-synced procedural soundtrack:** Mechanical carriage ratchet, servo light-bar sweeps, sub-bass, glitch arpeggios, and cut impacts synthesized in NumPy.
+- **Exports:** `9:16` (`1080×1920` cinema strip), `16:9` (`1920×1080`), or `both` in browser-safe H.264 + AAC.
 
-Good fits:
-
-- visual identity boards
-- mark exploration
-- typography and palette studies
-- compressed brand presentations
-- application mockups
-
-Choose `Design-MV.md` when the deliverable is fundamentally about page structure and interface presentation.
-
-Good fits:
-
-- landing pages
-- product marketing sites
-- infrastructure or developer-tool sites
-- hero-section explorations
-- full-page website concepts
-
-## Working Style
-
-MotionViz performs better when the input has a real center of gravity. Short prompts with only adjectives usually flatten the result.
-
-Useful inputs:
-
-- category
-- audience
-- operating mood
-- core metaphor
-- layout shape
-- aspect ratio
-- must-have sections or panels
-
-Identity example:
-
-```text
-Create a premium 3 x 3 identity board for a fintech company. The brand should feel calm, institutional, and highly reduced. Use a trust-led direction with one ownable symbol, controlled palette logic, typography hierarchy, one application panel, and one construction panel.
+```bash
+python3 skills/flatbed-scanner-film/scripts/run_pipeline.py \
+  --input /path/to/your_clip.mp4 \
+  --out ./scanner_out \
+  --aspect both \
+  --brand "YOUR BRAND" \
+  --subtitle "1200 DPI SCAN"
 ```
 
-Website example:
+---
 
-```text
-Create a premium full-page web experience for a distributed systems platform. The page should feel composed, exacting, and quietly advanced. Use a modular layout, node-based hero structure, feature blocks, a flow section, a metrics zone, and a terminal-style CTA.
-```
+### 2. `blender-kinetic-showreel` — Procedural 3D Studio + Kinetic Editorial VFX
+
+<p align="center">
+  <img src="./assets/blender-kinetic-demo.gif" alt="Blender Kinetic Showreel Demo" width="760" />
+</p>
+
+End-to-end **Blender 4.2+/5.x + Python VFX pipeline** to build or import any 3D vehicle or product, light it in a high-contrast dark-metallic pure-white studio, animate multi-angle zero-clipping cameras (`4:5` vertical or `16:9` widescreen), and composite kinetic editorial motion graphics.
+
+- **Zero-clipping studio cameras:** Automated orbit, low-angle hero, wheel/detail, and rear-quarter shots.
+- **Kinetic editorial VFX layer:** Computer-vision tracking webs, B&W specular node graphs, Bayer-dithered halftone waves, strobing inverted-contrast typography, HUD telemetry, and seamless loop glitches.
+- **Fully scripted:** Reproducible Blender Python + FFmpeg pipeline in [`skills/blender-kinetic-showreel/`](./skills/blender-kinetic-showreel/SKILL.md).
+
+---
+
+## Full Skills & Instruction Index
+
+| Skill / File | What It Does | Best For |
+|---|---|---|
+| [`skills/flatbed-scanner-film`](./skills/flatbed-scanner-film/SKILL.md) | 1200 DPI optical flatbed CCD slit-scan + Apple Vision cutouts + procedural synth audio | Turning any raw AI or camera clip into a `$0` art-directed reel |
+| [`skills/blender-kinetic-showreel`](./skills/blender-kinetic-showreel/SKILL.md) | Procedural 3D studio lighting, multi-angle cameras, and kinetic editorial VFX compositing | High-contrast 3D vehicle / product showreels in Blender 5.x |
+| [`visual-identity/skills/BRANDING/Brand-MV.skill`](./visual-identity/skills/BRANDING/Brand-MV.skill) | Identity boards, symbol logic, typography direction, palette systems | Brand identity & compressed design guidelines |
+| [`website-design/skills/Design-MV.md`](./website-design/skills/Design-MV.md) | Structured, anti-slop landing pages & product-site architecture | High-craft product & marketing websites |
+
+---
 
 ## Repository Layout
 
 ```text
-README.md
-instructions.md
-roadmap.md
-visual-identity/
-  skills/
-    BRANDING/
-      Brand-MV.skill
-    list.sh
-website-design/
-  skills/
-    Design-MV.md
+MotionWiki-Playbook/
+├── skills/
+│   ├── flatbed-scanner-film/        # 1200 DPI optical scanner skill + Swift/Python scripts
+│   └── blender-kinetic-showreel/    # Blender 5.x 3D studio + kinetic editorial VFX scripts
+├── visual-identity/skills/BRANDING/ # Brand identity skill
+├── website-design/skills/           # Web design direction skill
+├── assets/                          # Animated showcase GIFs
+└── instructions.md                  # Setup patterns & usage notes
 ```
 
-## Why The Library Is Small
+---
 
-This repo is intentionally biased toward restraint.
+## Links & Support
 
-- one strong file is better than five shallow variants
-- a new skill should earn its place through a real workflow gap
-- docs should clarify usage, not make the project feel bigger than it is
-
-That bias is part of the product, not a temporary limitation.
-
-## Support And Feedback
-
-Support MotionViz directly:
-
-- [Support MotionViz on Whop](https://whop.com/checkout/plan_wmAQHOcSQVt0G)
-
-If you want to suggest improvements or report issues:
-
-- open an issue or pull request on GitHub
-- visit MotionViz: [https://linktr.ee/motionviz](https://linktr.ee/motionviz)
-
-## A Few Direct Answers
-
-### Does this generate code?
-
-No. This repository is for design direction and design-generation workflows, not frontend implementation.
-
-### Is it only for one kind of brand or software company?
-
-No. The current files are broad enough for technology, finance, AI, developer tools, infrastructure products, mobility, culture, wellness, and other system-led categories.
-
-### What do these files really do?
-
-They act as reusable design brief engines. They push the model toward stronger decisions about symbolism, hierarchy, layout rhythm, interface structure, and presentation quality.
+- **Follow updates & new drops:** [@Motion_Viz on X](https://x.com/Motion_Viz)
+- **All links:** [linktr.ee/motionviz](https://linktr.ee/motionviz)
+- **Support MotionViz:** [Whop](https://whop.com/checkout/plan_wmAQHOcSQVt0G)
