@@ -41,6 +41,14 @@ For identity boards, logo systems, typography direction, palette logic, brand ap
 `website-design/skills/Design-MV.md`
 For landing pages, product-site concepts, interface-led website compositions, and full-page web experience direction.
 
+### 3D & Local VFX Video Skills (`skills/`)
+
+`skills/flatbed-scanner-film/`
+Turn any raw video clip into a 14.5-second `1200 DPI` optical flatbed CCD slit-scan specimen film (clinical white lightbox glass + pitch-black RGB X-ray darkroom + dot-matrix HUD + frame-synced mechanical scanner soundtrack) locally for `$0` using Apple Vision (macOS) or `rembg` + NumPy + FFmpeg.
+
+`skills/blender-kinetic-showreel/`
+End-to-end Blender 4.2+/5.x + Python VFX pipeline to build or import any 3D vehicle/product, light it in a high-contrast dark-metallic pure-white studio, animate multi-angle zero-clipping cameras (`4:5` or `16:9`), and composite kinetic editorial motion graphics (CV tracking webs, B&W specular node graphs, Bayer-dithered halftone waves, strobing typography, and HUD telemetry).
+
 That is the real scope of the repository right now. More files should only appear when they solve a separate problem, not when they restate the same one in a new wrapper.
 
 ## How To Use It
@@ -48,7 +56,7 @@ That is the real scope of the repository right now. More files should only appea
 If your tool supports skill imports:
 
 ```bash
-npx skills add https://github.com/adi0900/MV---Design.git
+npx skills add https://github.com/adi0900/MotionWiki-Playbook.git
 ```
 
 If it does not, open the file you want and paste it into your system or instruction layer.
